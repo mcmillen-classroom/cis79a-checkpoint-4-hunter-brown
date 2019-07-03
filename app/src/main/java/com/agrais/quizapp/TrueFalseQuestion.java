@@ -14,4 +14,8 @@ public class TrueFalseQuestion extends Question {
         }
         return false;
     }
+    @Override
+    public boolean isTrueFalseQuestion(){
+        return true;
+    }
 }

@@ -12,8 +12,8 @@
 
     <string name="question_1">Does "Inggih" mean "Yes" in Balinese?</string>
     <string name="question_2">Does "Sing" mean "No" In Balinese?</string>
-    <string name="question_3">Is Jakarta the Capital of Indonesia?</string>
-    <string name="question_4">Indonesians predominantly practice Islam</string>
+    <string name="question_3">What is the Capital of Indonesia?</string>
+    <string name="question_4">What Religion do most Indonesians Practice?</string>
     <string name="question_5">Balinese predominantly practice Islam</string>
     <string name="question_6">Bali is a part of Indonesia</string>
     <string name="question_7">The Capital of Bali is Mas</string>
@@ -21,11 +21,26 @@
 
     <string name="hint_1">Yes</string>
     <string name="hint_2">Yes</string>
-    <string name="hint_3">Yes</string>
-    <string name="hint_4">Yes</string>
+    <string name="hint_3">It is also the Largest City</string>
+    <string name="hint_4">They have to pray 3x a day</string>
     <string name="hint_5">No</string>
     <string name="hint_6">Yes</string>
     <string name="hint_7">No</string>
     <string name="hint_8">Yes</string>
+    <string name="check_button">Check</string>
+
+    <string-array name="question_3_answers">
+        <item>jakarta</item>
+        <item>Ja kar ta</item>
+    </string-array>
+
+    <string-array name="question_4_options">
+        <item>Hinduism</item>
+        <item>Buddhism</item>
+        <item>Christianity</item>
+        <item>Islam</item>
+    </string-array>
+
+
 
 </resources>

@@ -13,6 +13,7 @@
         android:id="@+id/score_view"
         android:text="@string/score_text"
         android:textSize="12dp"
+
         />
     <TextView
         android:layout_width="wrap_content"
@@ -25,10 +26,13 @@
         android:id="@+id/text_view"
         android:text="@string/question_text"
         android:textSize="24dp"
+        android:textAlignment="center"
+        android:padding="24dp"
         android:textColor="@color/colorText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <LinearLayout
+        android:id="@+id/true_false_container"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -39,14 +43,12 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/true_button"
                 android:text="@string/true_button"
-                android:textColor="@color/colorTrue"
                 />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/false_button"
             android:text="@string/false_button"
-            android:textColor="@color/colorFalse"
             />
     </LinearLayout>
     <LinearLayout
@@ -63,6 +65,56 @@
             android:layout_height="wrap_content"
             android:id="@+id/next_button"
             android:src="@drawable/arrow_right"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/fill_the_blank_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/check_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_button"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/multiple_choice_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/A_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"/>
+        <Button
+            android:id="@+id/B_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/C_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"/>
+        <Button
+            android:id="@+id/D_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D"/>
+        </LinearLayout>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
